@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Image Rotation</title>
+    <link rel="stylesheet" href="./style.css">
+    <script async src="openCV.js" onload="onOpenCvReady();" type="text/javascript"></script>
+</head>
+<body>
+    <h2 id="status">Image Rotation</h2>
+   
+    <div class="images" id="imagesContainer">
+        <!-- Images will be dynamically added here -->
+    </div>
+
+    <div class="father">
+        <label for="imageInput" class="file-label">Add Image</label>
+        <input type="file" id="imageInput" multiple>
+        <input type="button" value="Rotate Left" onclick="rotateImage('LEFT')" class="input-button" >
+        <input type="button" value="Rotate Right" onclick="rotateImage('RIGHT')" class="input-button" >
+        <input type="text" placeholder="Enter angle" id="angleInput" style="border: 2px solid blue;" >
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

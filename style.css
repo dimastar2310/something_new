@@ -1,0 +1,57 @@
+/* CSS Reset for Button Element */
+/* Additional styling for the buttons container */
+
+/* CSS Reset for Button Element */
+/* Additional styling for the buttons container */
+   button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.images { 
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 600px;
+    width: 800px;
+    position: relative;
+    margin-left: 500px;
+    /* overflow: hidden; Prevent content from overflowing */
+}
+
+.father {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px; /* Add margin between "images" and "father" divs */
+    
+   
+}
+
+.file-label, .input-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#imageInput {
+    display: none;
+}
