@@ -1,4 +1,4 @@
-# Welcome to my uplading and rotating img project Use vsCode
+# Welcome to my uplading and rotating img project using OPENCV.
 
 # how you use it? first fork clone or download it.
 
